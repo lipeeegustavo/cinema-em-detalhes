@@ -1,0 +1,499 @@
+body{
+    background-color: #2b2d42;
+}
+.voltar{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 20px;
+    padding: 3.3vh;
+    border-radius: 10px;
+    color: #312783;
+    background-color: #ebebeb;
+    transition: 0.7s;
+}
+.voltar:hover{
+    transform: scale(1.1);
+    box-sizing: 0 0 10 0 white;
+    background-color: #ebebeb;
+    color: #8b9aff;
+}
+.titulo-header{
+    background-color: #26547c;
+}
+th{
+    border: 2px solid #fff;
+    padding: 9px; 
+}
+.tex{
+    width: 150vh;
+}
+.num{
+    text-align: center;
+    width: 30vh;
+}
+.tabel {
+    display: flex;
+    justify-content: center;
+}
+.sub {
+    background-color: #2b2d42;
+    text-align: left;
+    color: white;
+}
+.sub:hover{
+    background-color: #ffb703;
+    color: rgb(0, 0, 0);
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 700px; 
+    height: 500px;
+    padding: 20px; 
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;  
+}
+.Box1{
+    background-color: #ffb703;
+    height: 360px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    z-index: 2;
+}
+.Box1:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.Box1:hover .links{
+    height: 360px;
+    margin-top: 0px;
+}
+.links:hover{
+    background: #000000aa;
+    border-radius: 10px;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    width: 300px;
+    color: white;
+    text-align: center;
+}
+.title{
+    color: white;
+    text-align: center;
+}
+.info-galax{
+    display: flex;
+    justify-content: left;
+    place-content: left;
+    margin-left: 55px;
+    color: white;
+    padding: 2px;
+}
+.cont-galaxis {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.galax-video {
+    border: 2px solid rgb(0, 0, 0);
+    width: 650px;
+    height: 330px;
+}
+.cont-galaxis {
+    text-align: center;
+}
+.img-guardioes {
+    width: 225px;
+    height: 270px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.img-guardioes img {
+    object-fit: cover;
+}
+.img-guardioes .pers1,
+.img-guardioes .pers2,
+.img-guardioes .pers3,
+.img-guardioes .pers4,
+.img-guardioes .pers5 {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-guardioes:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.text-galaxis {
+    background-color: #0000002d;
+    color: white;
+    width: 100%;
+    height: 50px;
+    opacity: 0;
+}
+.img-guardioes:hover .text-galaxis {
+    opacity: 1; /* Torna o elemento visível quando o mouse está sobre .img-guardioes */
+}
+.pers1,
+.pers2,
+.pers3,
+.pers4,
+.pers5 {
+    width: 225px; /* Largura desejada */
+    height: 200px; /* Altura desejada */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.pers1 {
+    background-image: url("imagens/personagem1.webp");
+}
+.pers2 {
+    background-image: url("imagens/personagem2.webp");
+}
+.pers3 {
+    background-image: url("imagens/personagem3.webp");
+}
+.pers4 {
+    background-image: url("imagens/personagem4.webp");
+}
+.pers5 {
+    background-image: url("imagens/personagem5.webp");
+}
+.pers1:hover {
+    background-image: url("imagens/galax1.jpg");
+}
+.pers2:hover {
+    background-image: url("imagens/galax2.jpg");
+}
+.pers3:hover {
+    background-image: url("imagens/galax3.jpg");
+}
+.pers4:hover {
+    background-image: url("imagens/galax4.jpg");
+}
+.pers5:hover {
+    background-image: url("imagens/galax5.jpg");
+}
+.img-beber:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.organizador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.velozes{
+    width: 720px;
+    height: 400px;
+    padding: 20px;
+}
+.video-viuva{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 700px; 
+    height: 500px;
+    padding: 20px;   
+}
+.video-ferro{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 550px; 
+    height: 500px;
+    padding: 20px;
+}
+.text-ferro{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 600px;
+    color: white;
+}
+.text-beber{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 600px;
+    color: white;
+}
+.cont-ferro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.Ferro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+.img-ferro{
+    width: 150px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-ferro:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.text-personagem {
+    position: absolute;
+    padding: 10px;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.911);
+    border-radius: 10px;
+    bottom: 20px;
+    opacity: 0;
+    transition: 0.3s;
+    color: white;
+}
+.Ferro:hover .text-personagem {
+    opacity: 1;
+}
+.text-viuva{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 450px;
+    color: white;
+}
+.cont-viuva{
+    text-align: center;
+}
+.img-viuva{
+    width: 225px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-viuva:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.text-ford{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    width: 500px;
+    padding: 20px;
+}
+.cont-ford{
+    text-align: center;
+}
+.img-ford{
+    width: 150px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-ford:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.text-beber{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    width: 500px;
+    padding: 20px;
+}
+.cont-beber{
+    text-align: center;
+}
+.img-beber{
+    width: 300px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
+    opacity: 1;
+}
+.img-beber:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.text-gente{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    width: 500px;
+    padding: 20px;
+}
+.cont-gente{
+    text-align: center;
+}
+.img-gente{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-gente:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.text-branquelas{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    width: 500px;
+    padding: 20px;
+}
+.cont-branquelas{
+    text-align: center;
+}
+.img-branquelas{
+    width: 230px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-branquelas:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+
+.text-need{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    width: 500px;
+    padding: 20px;
+}
+.cont-need{
+    text-align: center;
+}
+.img-need{
+    width: 170px;
+    height: 310px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-need:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.text-veloz{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    width: 500px;
+    padding: 20px;
+}
+.cont-veloz{
+    text-align: center;
+}
+.img-veloz{
+    width: 120px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.img-veloz:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px 0 #26547c;
+}
+.img1{
+    background-image: url("imagens/marvel.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img2{
+    background-image: url("imagens/galax.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img3{
+    background-image: url("imagens/marvel3.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img4{
+    background-image: url("imagens/ford.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img5{
+    background-image: url("imagens/need.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img6{
+    background-image: url("imagens/asbranquelas.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img7{
+    background-image: url("imagens/gente.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img8{
+    background-image: url("imagens/beber.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.img9{
+    background-image: url("imagens/velozes.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: dotted;
+}

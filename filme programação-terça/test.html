@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .cont-ferro {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .Ferro {
+            position: relative;
+            text-align: center;
+        }
+
+        .img-ferro{
+            width: 150px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .img-ferro:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px 0 #26547c;
+        }
+
+        .text-personagem {
+            position: absolute;
+            bottom: 10px;
+            left: 0;
+            right: 0;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 0 0 10px 10px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+
+        .Ferro:hover .text-personagem {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <h1>Homem de Ferro 3</h1>
+    <div class="cont-ferro">
+        <div class="Ferro">
+            <img class="img-ferro" src="imagens/ator1.jpg" alt="Imagem do Ator 1">
+            <p class="text-personagem"> Robert Downey Jr.</p>
+        </div>
+        
+        <div class="Ferro">
+            <img class="img-ferro" src="imagens/ator2.jpg" alt="Imagem do Ator 2">
+            <p class="text-personagem">Jon Favreau</p>
+        </div>
+        
+        <div class="Ferro">
+            <img class="img-ferro" src="imagens/ator3.jpg" alt="Imagem do Ator 3">
+            <p class="text-personagem">Aldrich Killian</p>
+        </div>
+        
+        <div class="Ferro">
+            <img class="img-ferro" src="imagens/ator4.jpg" alt="Imagem do Ator 4">
+            <p class="text-personagem">Gwyneth Paltrow</p>
+        </div>
+        
+        <div class="Ferro">
+            <img class="img-ferro" src="imagens/ator5.jpg" alt="Imagem do Ator 5">
+            <p class="text-personagem">Don Cheadle</p>
+        </div>
+        
+        <div class="Ferro">
+            <img class="img-ferro" src="imagens/ator6.jpg" alt="Imagem do Ator 6">
+            <p class="text-personagem">Ty Simpkins</p>
+        </div>
+        
+        <div class="Ferro">
+            <img class="img-ferro" src="imagens/ator7.jpg" alt="Imagem do Ator 7">
+            <p class="text-personagem">Rebecca Hall</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
